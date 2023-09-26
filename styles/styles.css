@@ -26,13 +26,18 @@ input {
 }
 
 li {
+    
+    align-items: center;
     display: flex;
     justify-content: space-between;
 }
 
 ol {
+    
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 350px;
     list-style-type: decimal; /* Agregar números de lista */
+    gap: 5px;
+    margin-top: 20px;
 }
